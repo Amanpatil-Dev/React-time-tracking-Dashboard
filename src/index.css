@@ -41,7 +41,7 @@ body {
 }
 
 .card_header p {
-  opacity: 50%;
+  opacity: 0.5;
   color: white;
 }
 
@@ -71,7 +71,7 @@ a {
   color: white;
 }
 .inactive{
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 .work-body {

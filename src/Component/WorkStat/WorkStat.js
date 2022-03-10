@@ -31,7 +31,7 @@ function WorkStat(props) {
           <div className={`card_header work_header`}>
             <div className="row">
               <div className={`col-4 col-xl-12 work_hrs`}>
-                <p>{props.stat.title}</p>
+                <p style={{color:"white"}}>{props.stat.title}</p>
                 <h1>{props.stat.current}Hrs</h1>
               </div>
               <div className={`col-8 col-xl-7-5-c work_week`}>
