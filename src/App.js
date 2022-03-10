@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 
 const stat = [
   {
-
     timeframes: [
       {
         name: "daily",
@@ -194,6 +193,7 @@ function App() {
   return (
     <div className="container">
       <div className="row">
+        
         <UserCard onStatChange={handleStatChange} data={UserStat} />
 
         <Stats filteredWorkDone={initialStat} />

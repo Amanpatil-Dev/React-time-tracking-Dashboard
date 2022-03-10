@@ -36,8 +36,8 @@ body {
 
 .card_header img {
   width: 20%;
-  border: 2px solid white;
-  border-radius: 35px;
+  border: 3px solid white;
+  border-radius: 67px;
 }
 
 .card_header p {
@@ -45,7 +45,7 @@ body {
   color: white;
 }
 
-.card_header h2 {
+.card_header h1 {
   color: white;
   font-weight: 200;
 }
@@ -70,6 +70,9 @@ a {
 .status .active {
   color: white;
 }
+.inactive{
+  opacity: 50%;
+}
 
 .work-body {
   background-color: #ff8c65;
@@ -80,13 +83,13 @@ a {
 .study-body {
   background-color: #fe5b7c;
 }
-.exr-body {
+.exercise-body {
   background-color: #4bcf81;
 }
 .social-body {
   background-color: #7535d3;
 }
-.self-body {
+.self-care-body {
   background-color: #f1c65a;
 }
 .work,
@@ -117,7 +120,7 @@ svg {
   top: 20%;
   right: 10%;
 }
-.work_hrs h2 {
+.work_hrs h1 {
   font-size: 1.4rem;
 }
 .work_hrs p {
@@ -131,6 +134,9 @@ svg {
 .work_header:hover:not(.eclipse){
   background: #4f53b5;
   cursor: pointer;
+}
+a:hover{
+  color: white;
 }
 @media (min-width: 1024px) {
   .head {
@@ -152,10 +158,10 @@ svg {
     .col-xl-7-5-c {
       width: 62%;
     }
-    .work_hrs h2 {
+    .work_hrs h1 {
       font-size: 2.3rem;
     }
-    .card_content h2 {
+    .card_content h1 {
       font-size: 3rem;
     }
     .card_content {

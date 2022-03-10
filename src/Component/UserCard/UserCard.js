@@ -13,13 +13,13 @@ function UserCard(props) {
 
     }
     return <div className="col-sm-12 col-lg-3">
-        <div class="card mt-4">
-            <div class="card-body">
+        <div className="card mt-4">
+            <div className="card-body">
                 <div className="card_header head">
                     <img alt="aman" className="img-fluid" src={image}></img>
                     <div className="card_content mx-3">
                         <p style={{ margin: "0" }}>{props.data.content} </p>
-                        <h2>{props.data.goodName}</h2>
+                        <h1>{props.data.goodName}</h1>
                     </div>
                 </div>
                 <div className="status">
